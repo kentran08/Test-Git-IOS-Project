@@ -21,6 +21,7 @@
 		659E747A190CEC7800736594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659E745C190CEC7800736594 /* UIKit.framework */; };
 		659E7482190CEC7800736594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 659E7480190CEC7800736594 /* InfoPlist.strings */; };
 		659E7484190CEC7800736594 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E7483190CEC7800736594 /* Git_TestTests.m */; };
+		659E748F190CFC6A00736594 /* KKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E748E190CFC6A00736594 /* KKTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		659E747F190CEC7800736594 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		659E7481190CEC7800736594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		659E7483190CEC7800736594 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		659E748D190CFC6A00736594 /* KKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTest.h; sourceTree = "<group>"; };
+		659E748E190CFC6A00736594 /* KKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				659E746A190CEC7800736594 /* Main.storyboard */,
 				659E746D190CEC7800736594 /* KKViewController.h */,
 				659E746E190CEC7800736594 /* KKViewController.m */,
+				659E748D190CFC6A00736594 /* KKTest.h */,
+				659E748E190CFC6A00736594 /* KKTest.m */,
 				659E7470190CEC7800736594 /* Images.xcassets */,
 				659E745F190CEC7800736594 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				659E746F190CEC7800736594 /* KKViewController.m in Sources */,
+				659E748F190CFC6A00736594 /* KKTest.m in Sources */,
 				659E7469190CEC7800736594 /* KKAppDelegate.m in Sources */,
 				659E7465190CEC7800736594 /* main.m in Sources */,
 			);
